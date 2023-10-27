@@ -161,4 +161,6 @@ NChar(n) - Tipo de dado UNICODE que aceita 'n' bytes, mas armazena 2*n bytes.
 
  https://github.com/JosiTubaroski/Design-de-Banco-de-Dados/blob/main/05%20-%20Design%20da%20tabelas.sql
 
+ Colunas calculadas.
+
            

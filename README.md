@@ -155,6 +155,6 @@ NChar(n) - Tipo de dado UNICODE que aceita 'n' bytes, mas armazena 2*n bytes.
 
  Para saber mais:
 
- 
+ https://github.com/JosiTubaroski/Design-de-Banco-de-Dados/edit/main/04%20-%20Tipos%20de%20Dados%2C%20Dom%C3%ADnio%20e%20armazenamento.sql
 
            

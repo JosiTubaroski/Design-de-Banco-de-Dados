@@ -142,7 +142,7 @@ Obs: Alguns momentos iremos apresentar exibições do sistema que não são clas
 👇 Para saber mais acesse:
 
 <div> 
-<p><a href="https://github.com/JosiTubaroski/Design-de-Banco-de-Dados"> 4 - Design de Banco de Dados / Armazenamento e tipos de dados.</a></p>
+<p><a href="https://github.com/JosiTubaroski/Design-de-Banco-de-Dados/blob/main/09%20-%20Breve%20introdu%C3%A7%C3%A3o%20a%20DMVs.sql"> Gestão de desempenho com visões de gerenciamento dinâmico - DMV.</a></p>
 </div> 
 
            

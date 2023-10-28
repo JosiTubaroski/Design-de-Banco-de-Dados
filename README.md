@@ -155,12 +155,43 @@ NChar(n) - Tipo de dado UNICODE que aceita 'n' bytes, mas armazena 2*n bytes.
 
  Para saber mais:
 
- https://github.com/JosiTubaroski/Design-de-Banco-de-Dados/edit/main/04%20-%20Tipos%20de%20Dados%2C%20Dom%C3%ADnio%20e%20armazenamento.sql
+ <div> 
+<p>º<a href="https://github.com/JosiTubaroski/Design-de-Banco-de-Dados/edit/main/04%20-%20Tipos%20de%20Dados%2C%20Dom%C3%ADnio%20e%20armazenamento.sql"> 04 - Tipos de Dados, Domínio e armazenamento.sql</a></p>
+</div> 
+
+ 
 
  Criando as melhores tabelas
 
  https://github.com/JosiTubaroski/Design-de-Banco-de-Dados/blob/main/05%20-%20Design%20da%20tabelas.sql
 
  Colunas calculadas.
+
+ # Gestão de desempenho com visões de gerenciamento dinâmicos - DMV
+
+ DMV ou Exibições de Gerenciamento Dinâmico
+
+ - As DMVs são objetos que informam o estado de diversos componentes de uma instancia do SQL Server, retornando um conjunto de
+   informações úteis que irão nos ajudar por exemplo em entender o armazenamento ou a utilização de recursos. Claro, ajudar a identificar
+   as querys mais lentas.
+
+- Elas são acessadas pela instrução SELECT  e podem fazer parte de JOIN com outras DMVs. Apesar do nome ser exibição, as DMVs podem
+  ser views ou functions.
+
+- As informações apresentadas podem ser dados armazenados ou capturados do ambiente da Instância, sistema operacional ou banco de dados.
+
+- Elas são divididas em grupos.
+
+- São do eschema SYS e, na grande maioria dos casos, começam do prefixo DM.
+
+Ref.: https://docs.microsoft.com/pt-br/sql/relational-databases/system-dynamic-management-views/system-dynamic-management-views
+
+Obs: Alguns momentos iremos apresentar exibições do sistema que não são classificadas como DMVs.
+
+👇 Para saber mais acesse:
+
+<div> 
+<p>º<a href="https://github.com/JosiTubaroski/Design-de-Banco-de-Dados"> 4 - Design de Banco de Dados / Armazenamento e tipos de dados.</a></p>
+</div> 
 
            

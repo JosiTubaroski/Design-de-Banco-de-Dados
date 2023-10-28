@@ -57,7 +57,7 @@ TABELA existe tambem.
 👇  Consulte todas as queries utilizadas
 
 <div> 
-<p>º<a href="https://github.com/JosiTubaroski/Design-de-Banco-de-Dados/blob/main/03%20-%20Design%20da%20Banco%20de%20Dados.sql"> 03 - Design da Banco de Dados.sql </a></p>
+<p><a href="https://github.com/JosiTubaroski/Design-de-Banco-de-Dados/blob/main/03%20-%20Design%20da%20Banco%20de%20Dados.sql"> 03 - Design da Banco de Dados.sql </a></p>
 </div> 
 
 # Armazenamento e tipos de dados.
@@ -105,10 +105,10 @@ NChar(n) - Tipo de dado UNICODE que aceita 'n' bytes, mas armazena 2*n bytes.
            A palavra 'JOSE' em um tipo NCHAR(10) será gravado com 20 bytes de armazenamento.
            O dados deve ser representado com o N maiúsculo na frente do litera.
 
- Para saber mais:
+👇 Para saber mais:
 
  <div> 
-<p>º<a href="https://github.com/JosiTubaroski/Design-de-Banco-de-Dados/edit/main/04%20-%20Tipos%20de%20Dados%2C%20Dom%C3%ADnio%20e%20armazenamento.sql"> 04 - Tipos de Dados, Domínio e armazenamento.sql</a></p>
+<p><a href="https://github.com/JosiTubaroski/Design-de-Banco-de-Dados/edit/main/04%20-%20Tipos%20de%20Dados%2C%20Dom%C3%ADnio%20e%20armazenamento.sql"> 04 - Tipos de Dados, Domínio e armazenamento.sql</a></p>
 </div> 
 
  
@@ -142,7 +142,7 @@ Obs: Alguns momentos iremos apresentar exibições do sistema que não são clas
 👇 Para saber mais acesse:
 
 <div> 
-<p>º<a href="https://github.com/JosiTubaroski/Design-de-Banco-de-Dados"> 4 - Design de Banco de Dados / Armazenamento e tipos de dados.</a></p>
+<p><a href="https://github.com/JosiTubaroski/Design-de-Banco-de-Dados"> 4 - Design de Banco de Dados / Armazenamento e tipos de dados.</a></p>
 </div> 
 
            

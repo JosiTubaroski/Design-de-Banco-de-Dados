@@ -10,16 +10,6 @@ Banco de dados em vários arquivos. Aumenta a eficiência
   extensão MDF e outro arquivo de log com a extensão LDF para registrar os logs da transação (vamos tratar somente de
   arquivo de dados nesse treinamento).
 
-Drop Database if exists DBTeste
-go
-
-Create Database DBTeste
-go
-
-Use DBTeste
-go
-
-select * from sys.database_files
 
 - Cada arquivo tem um FILE ID que é o número de identificação do arquivo. Importante.
 - A coluna DATA_SPACE_ID é a identificação desse arquivo dentro de um grupo de arquivo.
@@ -59,54 +49,16 @@ TABELA existe tambem.
    - Deve ter um limite máximo de crescimento. Isso é importante para evitar que arquivos crescem e ocupem
      todo o espaço em disco.
 
-Exemplos de criação de banco de dados:
-
-*/
-Drop Database if exists DBDemo_01
-go
-
-CREATE DATABASE DBDemo_01
-GO
-
-USE DBDemo_01
-GO
-
-Select size*8 as TamanhoKb , growth as CrescimentoKB , *  
-  From sys.database_files
-
-use Master
-go
-
-DROP DATABASE DBDemo_01
-GO
-
-/*
-
-*/
-DROP DATABASE if exists DBDemoA
-GO
-
-CREATE DATABASE DBDemoA                      -- Instrução par criar o banco de dados.
-ON PRIMARY                                   -- FG PRIMARY. 
- ( NAME = 'Primario',                        -- Nome lógico do arquivo.
-   FILENAME = 'D:\DBDemoA_Primario.mdf' ,    -- Nome físico do arquivo.
-   SIZE = 256MB                              -- Tamanho inicial do arquivo.
- ) 
-LOG ON 
- ( NAME = 'Log', 
-   FILENAME = 'F:\DBDemoA_Log.ldf' , 
-   SIZE = 12MB 
-  )
-GO
-
 - FILEGROUP é um agrupamento lógico de arquivos de dados para distribuir melhor a alocação de dados entre discos, agrupar dados
   de acordo com contextos ou arquivamentos como também permitir ao DBA uma melhor forma de administração.
 
   No nosso caso, vamos focar em melhorar o desempenho das consultas.
 
-  Consulte todas as queries utilizadas
+👇  Consulte todas as queries utilizadas
 
-https://github.com/JosiTubaroski/Design-de-Banco-de-Dados/blob/main/03%20-%20Design%20da%20Banco%20de%20Dados.sql
+<div> 
+<p>º<a href="https://github.com/JosiTubaroski/Design-de-Banco-de-Dados/blob/main/03%20-%20Design%20da%20Banco%20de%20Dados.sql"> 03 - Design da Banco de Dados.sql </a></p>
+</div> 
 
 # Armazenamento e tipos de dados.
 
@@ -160,7 +112,6 @@ NChar(n) - Tipo de dado UNICODE que aceita 'n' bytes, mas armazena 2*n bytes.
 </div> 
 
  
-
  Criando as melhores tabelas
 
  https://github.com/JosiTubaroski/Design-de-Banco-de-Dados/blob/main/05%20-%20Design%20da%20tabelas.sql

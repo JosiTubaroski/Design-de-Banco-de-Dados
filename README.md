@@ -57,7 +57,7 @@ TABELA existe tambem.
 👇  Consulte todas as queries utilizadas
 
 <div> 
-<p><a href="https://github.com/JosiTubaroski/Design-de-Banco-de-Dados/blob/main/03%20-%20Design%20da%20Banco%20de%20Dados.sql"> 03 - Design da Banco de Dados.sql </a></p>
+<p><a href="https://github.com/JosiTubaroski/Design-de-Banco-de-Dados/blob/main/03%20-%20Design%20da%20Banco%20de%20Dados.sql"> Design da Banco de Dados.sql </a></p>
 </div> 
 
 # Armazenamento e tipos de dados.
@@ -108,13 +108,12 @@ NChar(n) - Tipo de dado UNICODE que aceita 'n' bytes, mas armazena 2*n bytes.
 👇 Para saber mais:
 
  <div> 
-<p><a href="https://github.com/JosiTubaroski/Design-de-Banco-de-Dados/edit/main/04%20-%20Tipos%20de%20Dados%2C%20Dom%C3%ADnio%20e%20armazenamento.sql"> 04 - Tipos de Dados, Domínio e armazenamento.sql</a></p>
+<p><a href="https://github.com/JosiTubaroski/Design-de-Banco-de-Dados/edit/main/04%20-%20Tipos%20de%20Dados%2C%20Dom%C3%ADnio%20e%20armazenamento.sql"> Tipos de Dados, Domínio e armazenamento</a></p>
 </div> 
 
- 
- Criando as melhores tabelas
-
- https://github.com/JosiTubaroski/Design-de-Banco-de-Dados/blob/main/05%20-%20Design%20da%20tabelas.sql
+ <div> 
+<p><a href="https://github.com/JosiTubaroski/Design-de-Banco-de-Dados/blob/main/05%20-%20Design%20da%20tabelas.sql"> Criando as melhores tabelas </a></p>
+</div> 
 
  Colunas calculadas.
 

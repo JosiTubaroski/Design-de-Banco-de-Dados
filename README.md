@@ -147,4 +147,42 @@ Obs: Alguns momentos iremos apresentar exibições do sistema que não são clas
 <p><a href="https://github.com/JosiTubaroski/Design-de-Banco-de-Dados/blob/main/09%20-%20Breve%20introdu%C3%A7%C3%A3o%20a%20DMVs.sql"> Gestão de desempenho com visões de gerenciamento dinâmico - DMV.</a></p>
 </div> 
 
+# Conceitos de Arvore Balanceada
+
+## Introdução
+
+Uma das técnicas mais eficientes para organizar dados para uma pesquisa rápida é a utilização de ordenação utilizando uma estrutura de dados conhecido como arvore binária.
+
+ - Essa estrutura é capaz de organizar os dados a partir do nó raiz com um unico valor (ou uma única chave) e com dois ponteiros referenciando os próximos nós
+ - Existe somente um nó raiz (root) onde começa a pesquisa.
+ - Os nós intermediários onde se navega pela árvore.
+ - Nós folhas (leaf) onde eles não possuem referência para outro nós.
+
+  Ref.: https://pt.wikipedia.org/wiki/%C3%81rvore_bin%C3%A1ria
+
+  - Devido a algumas dificuldades em incluir, alterar ou excluir dados dentro dessa árvore, foi criando uma estrutura semelhante que é conhecida como
+    b-tree.
+
+ Ref.: https://pt.wikipedia.org/wiki/%C3%81rvore_B
+
+   - A diferença entre a árvore binária e a b-tree, é que a primeira é restrita a uma única chave de pesquisa em um determinado nó e tem dois ponteiros
+     no máximo saindo de um nó.
+     A segunda já permite um número maior de chaves em um nó e o número máximo de ponteiros saindo do será de total de chaves mais 1.
+
+   - E temos uma outra variação da b-tree que é conhecido com b-tree+ (b-tree plus) que entre suas caracteristicas, a mais significativa é o encadeamento
+     entre os nos de folhas
+
+Ref.: https://pt.wikipedia.org/wiki/%C3%81rvore_B%2B
+
+👇 Para saber mais:
+
+<div> 
+<p><a href="https://github.com/JosiTubaroski/Design-de-Banco-de-Dados/blob/main/10%20-%20Conceitos%20de%20Arvore%20Balanceada.sql"> Conhecendo arvores balanceadas.</a></p>
+</div> 
+
+
+
+         
+    
+ 
            

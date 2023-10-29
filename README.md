@@ -111,11 +111,14 @@ NChar(n) - Tipo de dado UNICODE que aceita 'n' bytes, mas armazena 2*n bytes.
 <p><a href="https://github.com/JosiTubaroski/Design-de-Banco-de-Dados/edit/main/04%20-%20Tipos%20de%20Dados%2C%20Dom%C3%ADnio%20e%20armazenamento.sql"> Tipos de Dados, Domínio e armazenamento</a></p>
 </div> 
 
- <div> 
+<div> 
 <p><a href="https://github.com/JosiTubaroski/Design-de-Banco-de-Dados/blob/main/05%20-%20Design%20da%20tabelas.sql"> Criando as melhores tabelas </a></p>
 </div> 
 
- Colunas calculadas.
+<div> 
+<p><a href="https://github.com/JosiTubaroski/Design-de-Banco-de-Dados/blob/main/06%20-%20Colunas%20Calculadas.sql"> Colunas calculadas </a></p>
+</div> 
+
 
  # Gestão de desempenho com visões de gerenciamento dinâmicos - DMV
 
